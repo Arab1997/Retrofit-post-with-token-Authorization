@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:labelFor="@+id/name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="Name"/>
+
+    <EditText
+        android:id="@+id/etxtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:labelFor="@+id/job"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="Proprietor Name"/>
+
+    <EditText
+        android:id="@+id/etxtproprietorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:labelFor="@+id/name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="Present Address"/>
+
+    <EditText
+        android:id="@+id/etxtpresentAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:labelFor="@+id/name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="Mobile Phone"/>
+
+    <EditText
+        android:id="@+id/etxtmobilePhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:labelFor="@+id/name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="Shop Category"/>
+
+    <EditText
+        android:id="@+id/etxtshopCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:layout_margin="15dp"/>
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>
